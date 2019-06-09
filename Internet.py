@@ -11,6 +11,6 @@ def internetConnected():
         except requests.ConnectionError:
             print("Internet not connected -- retrying.")
         
-        time.sleep(3)
+        time.sleep(5)
 
 internetConnected()
